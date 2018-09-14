@@ -1,0 +1,15 @@
+/*
+Theme Name: Popper child theme
+Theme URI https://www.adevwatkin.com/wordpress-themes
+Description: A child theme of Popper
+Author: Adam
+Template: popper-master
+version: 0.1.0
+*/
+
+
+@import url("../../popper-master/style.css");
+
+body {
+    background-color: pink;
+}

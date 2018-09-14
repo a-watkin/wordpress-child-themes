@@ -1,8 +1,11 @@
 /*
 Theme Name: Hume child theme
-Theme URI https://www.adevwatkin.com
+Theme URI https://www.adevwatkin.com/wordpress-themes
 Description: A child theme of Hume
 Author: Adam
 Template: hume-master
 version: 0.1.0
 */
+
+
+@import url("../../hume-master/style.css")
