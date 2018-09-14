@@ -13,7 +13,41 @@ version: 0.1.0
 /* import may reduce performance if the parent-theme is complex */
 @import url("../../popper-master/style.css");
 
-/*overrides CSS in the master file*/
-body {
-    background-color: pink;
+
+/* inverting theme colours */
+@media (min-width: 50em) {
+    .main-navigation {
+        background-color: white;
+    }
+}
+
+.main-navigation a {
+    color: black;
+}
+
+.main-navigation a:hover {
+    color: purple;
+}
+
+.entry-title {
+    color: white;
+    background: black;
+}
+
+.content-area {
+    background: black;
+    color: white;
+}
+
+.entry-footer span a {
+    color: white;
+}
+
+.widget {
+    background-color: black;
+    color: white;
+}
+
+#secondary {
+    background-color: white;
 }
